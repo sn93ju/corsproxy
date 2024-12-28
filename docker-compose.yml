@@ -1,0 +1,9 @@
+services:
+  proxy:
+    image: node:20
+    volumes:
+      - .:/app
+    ports:
+      - "8081:8081"
+    working_dir: /app
+    entrypoint: "sh ./entrypoint.sh"

@@ -1,0 +1,8 @@
+npm-debug.log
+Dockerfile
+docker-compose.yml
+.git
+.gitignore
+.vscode
+.DS_Store
+.env
